@@ -4,10 +4,10 @@ package ca.demo.salestool;
  * Represent the sales data for a given period.
  */
 public class SalesData {
-	int data[] = {-1, 0, 4, 42, 84};
+	int data[] = {-1, 0, 4, 42, 84, 130};
 	
 	public void display() {
-		System.out.println("Data: ");
+		System.out.println("Data from said: ");
 
 		int sum = 0;
 		for (int i: data) {
